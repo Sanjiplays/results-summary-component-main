@@ -1,0 +1,60 @@
+* {
+
+
+/*  
+### Primary
+*/
+
+--light-red: hsl(0, 100%, 67%);
+--orangey-yellow: hsl(39, 100%, 56%);
+--green-teal: hsl(166, 100%, 37%);
+--cobalt-blue: hsl(234, 85%, 45%);
+
+/*
+## Gradients
+*/
+
+--Light-slate-blue/*(background)*/: hsl(252, 100%, 67%);
+--Light-royal-blue/*(background)*/: hsl(241, 81%, 54%);
+
+--Violet-blue/*(circle)*/: hsla(256, 72%, 46%, 1);
+--Persian-blue/*(circle)*/: hsla(241, 72%, 46%, 0);
+
+
+/*
+### Neutral
+*/
+
+--White: hsl(0, 0%, 100%);
+--Pale-blue: hsl(221, 100%, 96%);
+--Light-lavender: hsl(241, 100%, 89%);
+--Dark-gray-blue: hsl(224, 30%, 27%);
+
+
+font-family: 'Hanken Grotesk', sans-serif;
+font-size: 18px;
+border: red solid 1px;
+}
+.conteiner{
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.total{
+    flex-wrap: wrap;
+    background: var(--Light-slate-blue);
+    flex-flow: row;
+}
+@media(max-width: 1440px){
+    body{
+        width: 1440px;
+        height: 670px;
+    }
+}
+@media(max-width: 375px) {
+    body{
+        width: 375px;
+        height: 670px;
+    }
+}
